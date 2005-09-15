@@ -1,0 +1,39 @@
+rote (0.2.8-3) unstable; urgency=low
+
+  * Moved libncurse5-dev dependency from librote0 to librote-dev.  This now
+    makes sense, as there was no point for a runtime library to depend on a
+    development library.
+  * Updated the FSF postal address in debian/copyright.
+  * Updated some incantations in debian/rules to minimize the size of the
+    .diff.gz (Thanks to Anibal Monsalve Salazar for the patch).
+
+ -- Roberto C. Sanchez <roberto@familiasanchez.net>  Wed, 14 Sep 2005 21:39:55 -0400
+
+rote (0.2.8-2) unstable; urgency=low
+
+  * Fixed incorrect reference in shlibs file.  Thanks to Julian Gilbey for the
+    pointer.
+
+ -- Roberto C. Sanchez <roberto@familiasanchez.net>  Mon, 18 Jul 2005 19:02:58 -0400
+
+rote (0.2.8-1) unstable; urgency=low
+
+  * New upstream release.
+  * Resolve ITP (the original closure did not take).  (Closes: #312740)
+
+ -- Roberto C. Sanchez <roberto@familiasanchez.net>  Sun, 10 Jul 2005 09:43:11 -0400
+
+rote (0.2.6+20050511-1) unstable; urgency=low
+
+  * New upstream snapshot.
+  * Added dependency on libncurses5-dev.
+
+ -- Roberto C. Sanchez <roberto@familiasanchez.net>  Wed, 22 Jun 2005 10:36:49 -0400
+
+rote (0.2.6-1) unstable; urgency=low
+
+  * Initial Release.
+  * Resolve ITP.  (Closes: #312740)
+
+ -- Roberto C. Sanchez <roberto@familiasanchez.net>  Tue, 21 Jun 2005 20:25:45 -0400
+

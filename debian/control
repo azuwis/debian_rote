@@ -1,0 +1,39 @@
+Source: rote
+Priority: optional
+Maintainer: Roberto C. Sanchez <roberto@familiasanchez.net>
+Build-Depends: debhelper (>= 4.0.0), autotools-dev, libncurses5-dev, dpatch
+Standards-Version: 3.6.2
+Section: libs
+
+Package: librote-dev
+Section: libdevel
+Architecture: any
+Depends: librote0 (= ${Source-Version}), libncurses5-dev
+Description: a simple C library for VT102 terminal emulation - development
+ ROTE is a simple C library for VT102 terminal emulation. It allows the
+ programmer to set up virtual 'screens' and send them data. The virtual
+ screens will emulate the behavior of a VT102 terminal, interpreting escape
+ sequences, control characters and such. The library supports ncurses as
+ well so that you may render the virtual screen to the real screen when you
+ need to.
+ .
+ This package contains the files necessary to develop programs that use ROTE.
+ .
+ Homepage: http://rote.sourceforge.net/
+
+Package: librote0
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: a simple C library for VT102 terminal emulation - runtime
+ ROTE is a simple C library for VT102 terminal emulation. It allows the
+ programmer to set up virtual 'screens' and send them data. The virtual
+ screens will emulate the behavior of a VT102 terminal, interpreting escape
+ sequences, control characters and such. The library supports ncurses as
+ well so that you may render the virtual screen to the real screen when you
+ need to.
+ .
+ This package contains the files necessary to run programs that have been
+ compiled against librote.
+ .
+ Homepage: http://rote.sourceforge.net/

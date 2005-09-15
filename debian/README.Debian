@@ -1,0 +1,7 @@
+rote for Debian
+---------------
+
+Currently, this package is only used by anyterm, but it should be useful to
+anyone wishing to develop applications that use terminal emulation.
+
+ -- Roberto C. Sanchez <roberto@familiasanchez.net>, Tue, 21 Jun 2005 19:32:37 -0400
