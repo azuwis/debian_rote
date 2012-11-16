@@ -1,3 +1,10 @@
+rote (0.2.8-3+brew1) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * Backports.
+
+ -- Zhong Jianxin (azuwis) <azuwis@gmail.com>  Fri, 16 Nov 2012 14:44:33 +0800
+
 rote (0.2.8-3) unstable; urgency=low
 
   * Moved libncurse5-dev dependency from librote0 to librote-dev.  This now
